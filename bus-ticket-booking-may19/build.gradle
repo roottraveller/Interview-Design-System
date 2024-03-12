@@ -1,0 +1,30 @@
+plugins {
+    id 'org.springframework.boot' version '2.7.0'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.projectlombok:lombok:1.18.22' // Lombok dependency
+    annotationProcessor 'org.projectlombok:lombok:1.18.22' // Lombok annotation processor
+    testImplementation 'junit:junit:4.13.2'
+}
+
+group 'ticket-booking'
+version '1.0-SNAPSHOT'
+
+//bootJar {
+//    baseName = 'gs-rest-service'
+//    version = '0.1.0'
+//}
+
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.boot:spring-boot-dependencies:2.7.0"
+    }
+}
