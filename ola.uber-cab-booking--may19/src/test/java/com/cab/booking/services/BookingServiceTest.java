@@ -1,10 +1,9 @@
-package test.java.com.cab.booking.services;
+package com.cab.booking.services;
 
 import com.cab.booking.domain.DestinationNode;
 import com.cab.booking.domain.RatingNode;
 import com.cab.booking.domain.user.Customer;
-import main.java.com.cab.booking.services.BookingService;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.List;
 
