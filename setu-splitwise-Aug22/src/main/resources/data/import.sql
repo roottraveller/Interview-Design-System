@@ -1,0 +1,1 @@
+-- INSERT INTO USER_ENTITY (USER_ID, NAME, EMAIL) VALUES ('1234asdf', 'Maya', 'maya@earth.com')

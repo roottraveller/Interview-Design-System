@@ -1,0 +1,14 @@
+{
+  "properties": [
+    {
+      "name": "error.whitelabel.enabled",
+      "type": "java.lang.String",
+      "description": "Description for error.whitelabel.enabled."
+    },
+    {
+      "name": "springdoc.swagger-ui.disable-swagger-default-url",
+      "type": "java.lang.String",
+      "description": "Description for springdoc.swagger-ui.disable-swagger-default-url."
+    }
+  ]
+}
